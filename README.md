@@ -11,6 +11,7 @@ This example train a multi-layer RNN (Elman, GRU or LSTM) on a language modeling
 `  python main.py --cuda --tied                   # Train a tied LSTM on Wikitext-2 with CUDA for 40 epochs `
   
 `  python generate.py                             # Generate samples from the trained LSTM model. `
-`  python generate.py --cuda --model Transformer  # Generate samples from the trained Transformer model. `
+
+    python generate.py --cuda --model Transformer  # Generate samples from the trained Transformer model. `
 
 #### Note: Work on dynamic quantization is on its way.
